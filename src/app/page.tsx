@@ -25,7 +25,7 @@ export default function Home() {
       <KnowAboutYour />
       <YouDeserveToKnow />
       <FirstTimeInIndia />
-      <Footer />
+      {/* <Footer /> */}
       {/* <p className="font-figtree_black_italic_900 mt-[50px] w-full text-center">Hello</p> */}
    </div>
   );  

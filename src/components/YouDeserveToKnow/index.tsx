@@ -30,12 +30,11 @@ const YouDeserveToKnow = () => {
   );
 
   const carouselImages = [
-    { desktop: "/Webp/Desktop Webp/Web carousel 01.webp", mobile: "/Webp/Mobile Webp/Web carousel 01.webp" },
-    { desktop: "/Webp/Desktop Webp/Web carousel 02.webp", mobile: "/Webp/Mobile Webp/Web carousel 02.webp" },
-    { desktop: "/Webp/Desktop Webp/Web carousel 03.webp", mobile: "/Webp/Mobile Webp/Web carousel 03.webp" },
-    { desktop: "/Webp/Desktop Webp/Web carousel 04.webp", mobile: "/Webp/Mobile Webp/Web carousel 04.webp" },
-    { desktop: "/Webp/Desktop Webp/Web carousel 05.webp", mobile: "/Webp/Mobile Webp/Web carousel 05.webp" },
-    { desktop: "/Webp/Desktop Webp/Web carousel 06.webp", mobile: "/Webp/Mobile Webp/Web carousel 06.webp" },
+    { desktop: "/Webp/Desktop Webp/Web carousel 01.jpg", mobile: "/Webp/Desktop Webp/Web carousel 01.jpg" },
+    { desktop: "/Webp/Desktop Webp/3884497.jpg", mobile: "/Webp/Desktop Webp/3884497.jpg" },
+    { desktop: "/Webp/Desktop Webp/3924315.jpg", mobile: "/Webp/Desktop Webp/3924315.jpg" },
+    { desktop: "/Webp/Desktop Webp/3931899.jpg", mobile: "/Webp/Desktop Webp/3931899.jpg" },
+    { desktop: "/Webp/Desktop Webp/3965473.jpg", mobile: "/Webp/Desktop Webp/3965473.jpg" },
   ];
 
   return (
@@ -44,11 +43,11 @@ const YouDeserveToKnow = () => {
       className="w-full h-[350vh] md:h-[300vh] bg-[#F8F8F8]"
     >
       <div className="flex flex-col items-center justify-start w-full max-w-[1200px] pb-[56px] pt-[150px] mx-auto px-4">
-        <p className="text-[#333] text-[12px] md:text-[20px] leading-normal md:leading-[30px] font-figtree_medium tracking-[1.6px] uppercase mb-4">
-          All powered by AI to suit you and you only.
+        <p className="text-[#102446] text-[12px] md:text-[20px] leading-normal md:leading-[30px] font-figtree_medium tracking-[1.6px] uppercase mb-4">
+        ALL POWERED BY AI TO REVEAL YOUR UNIQUE DESTINY..
         </p>
-        <p className="text-[#000] text-[32px] md:text-[64px] leading-[32px] md:leading-[64px] font-figtree_bold tracking-[-0.32px] md:tracking-[-1.28px] text-center">
-          You deserve to know your skin.
+        <p className="text-[#102446] text-[32px] md:text-[64px] leading-[32px] md:leading-[64px] font-figtree_bold tracking-[-0.32px] md:tracking-[-1.28px] text-center">
+        You deserve to know what your palm reveals.
         </p>
       </div>
       <section className="w-full sticky top-0 h-[100vh] overflow-hidden py-[0px] flex flex-col items-center justify-start">
