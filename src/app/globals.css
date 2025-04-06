@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  overflow-x: hidden;
+
+}
+
+@font-face {
+  font-family: Figtree-Light;
+  src: local("Figtree-Light"),
+  url("/fonts/Figtree/Figtree-Light.ttf") format('truetype');
+}
+
+@font-face{
+  font-family: Figtree-LightItalic;
+  src: local("Figtree-LightItalic"),
+  url("/fonts/Figtree/Figtree-LightItalic.ttf") format('truetype');
+}
+
+@font-face{
+  font-family: Figtree-Regular;
+  src: local("Figtree-Regular"),
+  url("/fonts/Figtree/Figtree-Regular.ttf") format('truetype');
+}
+
+@font-face{
+  font-family: Figtree-RegularItalic;
+  src: local("Figtree-RegularItalic"),
+  url("/fonts/Figtree/Figtree-RegularItalic.ttf") format('truetype');
+}
+
+@font-face{
+  font-family: Figtree-Medium;
+  src: local("Figtree-Medium"),
+  url("/fonts/Figtree/Figtree-Medium.ttf") format('truetype');
+}
+
+@font-face{
+  font-family: Figtree-MediumItalic;
+  src: local("Figtree-MediumItalic"),
+  url("/fonts/Figtree/Figtree-MediumItalic.ttf") format('truetype');
+}
+
+@font-face{
+  font-family: Figtree-SemiBold;
+  src: local("Figtree-SemiBold"),
+  url("/fonts/Figtree/Figtree-SemiBold.ttf") format('truetype');
+}
+
+@font-face{
+  font-family: Figtree-SemiBoldItalic;
+  src: local("Figtree-SemiBoldItalic"),
+  url("/fonts/Figtree/Figtree-SemiBoldItalic.ttf") format('truetype');
+}
+
+
+
+@font-face{
+  font-family: Figtree-Bold;
+  src: local("Figtree-Bold"),
+  url("/fonts/Figtree/Figtree-Bold.ttf") format('truetype');
+}
+
+@font-face{
+  font-family: Figtree-BoldItalic;
+  src: local("Figtree-BoldItalic"),
+  url("/fonts/Figtree/Figtree-BoldItalic.ttf") format('truetype');
+}
+
+@font-face{
+  font-family: Figtree-ExtraBold;
+  src: local("Figtree-ExtraBold"),
+  url("/fonts/Figtree/Figtree-ExtraBold.ttf") format('truetype');
+}
+
+@font-face{
+  font-family: Figtree-ExtraBoldItalic;
+  src: local("Figtree-ExtraBoldItalic"),
+  url("/fonts/Figtree/Figtree-ExtraBoldItalic.ttf") format('truetype');
+}
+
+
+
+@font-face{
+  font-family: Figtree-Black;
+  src: local("Figtree-Black"),
+  url("/fonts/Figtree/Figtree-Black.ttf") format('truetype');
+}
+
+@font-face{
+  font-family: Figtree-BlackItalic;
+  src: local("Figtree-BlackItalic"),
+  url("/fonts/Figtree/Figtree-BlackItalic.ttf") format('truetype');
+}
+
+
+.get_app_blog {
+  padding: 0px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+.cover-image {
+  object-fit: cover;
+}

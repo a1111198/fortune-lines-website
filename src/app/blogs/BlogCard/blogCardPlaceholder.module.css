@@ -1,0 +1,63 @@
+.mainContainerOfBlogCard {
+    @apply w-full h-fit mt-[40px] mb-6 border hover:shadow-lg cursor-pointer hover:scale-[1.01] ease-in-out duration-300;
+}
+
+.mainContainerOfBlogCard .ImageSection {
+    @apply  h-[250px];
+}
+
+.mainContainerOfBlogCard .CardDetails .date {
+    @apply w-36 h-5 my-3 mx-3;
+}
+
+.mainContainerOfBlogCard .CardDetails {
+    @apply w-full  ;
+}
+
+.mainContainerOfBlogCard .CardDetails .BlogCardTitle {
+    @apply w-11/12 h-5 my-1 mx-3;
+}
+.mainContainerOfBlogCard .CardDetails .BlogCardTitleHalf {
+    @apply w-7/12 h-5 mt-1 mx-3 mb-4;
+}
+
+.mainContainerOfBlogCard .CardDetails .BlogCardDescription {
+    @apply w-11/12 h-5 my-1 mx-3;
+}
+
+.mainContainerOfBlogCard .CardDetails .BlogCardDescriptionHalf {
+    @apply w-7/12 h-5 mt-1 mx-3 mb-4;
+}
+
+.mainContainerOfBlogCard .CardDetails .readMore {
+    @apply w-36 h-5 my-3 mx-3;
+}
+
+.shimmerBG {
+    animation-duration: 2.2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: shimmer;
+    animation-timing-function: linear;
+    background: #ddd;
+    background: linear-gradient(to right, #f6f6f6 8%, #f0f0f0 18%, #f6f6f6 33%);
+    background-size: 1200px 100%;
+  }
+  
+  @-webkit-keyframes shimmer {
+    0% {
+      background-position: -100% 0;
+    }
+    100% {
+      background-position: 100% 0;
+    }
+  }
+  
+  @keyframes shimmer {
+    0% {
+      background-position: -1200px 0;
+    }
+    100% {
+      background-position: 1200px 0;
+    }
+  }

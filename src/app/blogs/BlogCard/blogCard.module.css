@@ -1,0 +1,24 @@
+.mainContainerOfBlogCard {
+    @apply w-[320px] h-[414px] mt-[40px] mb-6 mx-auto border hover:shadow-lg cursor-pointer hover:scale-[1.01] ease-in-out duration-300;
+}
+
+
+.mainContainerOfBlogCard .date {
+    @apply opacity-60 text-[12px] font-figtree_regular;
+}
+
+.mainContainerOfBlogCard .CardDetails {
+    @apply flex flex-col justify-between items-start text-left px-4 py-2 h-[209px];
+}
+
+.mainContainerOfBlogCard .CardDetails .BlogCardTitle {
+    @apply text-[16px] font-bold font-figtree_regular py-3 max-h-[66px] overflow-hidden text-ellipsis;
+}
+
+.mainContainerOfBlogCard .CardDetails .BlogCardDescription {
+    @apply text-[14px] font-figtree_regular opacity-60 pb-1 max-h-[83px] overflow-hidden text-ellipsis;
+}
+
+.mainContainerOfBlogCard .CardDetails .readMore {
+    @apply text-[14px] font-bold font-figtree_regular opacity-60 text-right w-full;
+}
