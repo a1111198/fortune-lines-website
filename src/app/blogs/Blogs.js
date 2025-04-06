@@ -3,14 +3,12 @@
 import Script from "next/script";
 import Link from "next/link";
 import styles from "./blogs.module.css";
-import Image from "next/image";
 import BlogCardPlaceholder from "./BlogCard/BlogCardPlaceholder";
 import { useRouter } from "next/navigation";
 // import dynamic from "next/dynamic";
 import SmoothScrollLink from "@/components/SmoothScrollLink";
 // const BlogCard = dynamic(() => import("./BlogCard/BlogCard"), { ssr: false });
 import BlogCard from "./BlogCard/BlogCard";
-import Frame from "@/components/Blogs_Page/blogImage";
 
 const formatCategoryDisplayName = (name) => {
   return name.replace(/_/g, ' ').toUpperCase();
@@ -33,13 +31,7 @@ const Blogs = ({ latest2BlogData, latestBlogData, categories }) => {
   return (
     <>
     
-      {/* Banner Image Section */}
-      <div className={styles.banner}>
-      <Frame />
-      
-     
-       
-      </div>
+   
 
       {/* Categories Bar Section */}
       <div className={styles.categoriesBar}>

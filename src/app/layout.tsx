@@ -8,22 +8,9 @@ const figtree = Figtree({
 });
 
 export const metadata: Metadata = {
-  title: "Auria - AI-Powered Skin Analysis",
-  description: "Get personalized skincare recommendations using AI technology. Upload a selfie and receive a customized skincare plan in minutes.",
-  icons: {
-    icon: [
-      {
-        url: '/Favicon.svg',
-        type: 'image/svg+xml',
-        sizes: '64x64'
-      },
-      {
-        url: '/Image/Favicon.png',
-        type: 'image/png',
-        sizes: '32x32'
-      }
-    ],
-  },
+  title: "Fortune lines - AI-Powered Palm Reading",
+  description: "Discover your destiny with advanced AI palm analysis. Upload a photo of your palm and receive personalized insights about your future, personality, and life path in minutes.",
+
 };
 
 export default function RootLayout({
@@ -34,8 +21,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" type="image/svg+xml" href="/Favicon.svg" sizes="64x64" />
-        <link rel="alternate icon" type="image/png" href="/Image/Favicon.png" sizes="32x32" />
+        <link rel="icon" type="image/svg+xml" href="/logo.jpg" sizes="64x64" />
+        <link rel="alternate icon" type="image/png" href="/logo.jpg" sizes="32x32" />
       </head>
       <body className={`${figtree.variable} font-figtree_regular`}>
         {children}
